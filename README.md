@@ -1,6 +1,4 @@
-# Python-basic-
-learning python step by step  with  example code and  notes
-# Python Basics – Practice Programs
+# Python Basics 
 
 This repository contains beginner-friendly **Python programs and notes**.  
 It is designed for students who are learning Python step by step.  
