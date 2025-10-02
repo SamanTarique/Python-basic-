@@ -2,7 +2,7 @@
 
 This repository contains beginner-friendly **Python programs and notes**.  
 It is designed for students who are learning Python step by step.  
-Each file covers a small concept with examples.
+Each file covers a small concept with examples. (inspired from w3school)
 
 ---
 
