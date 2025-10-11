@@ -1,0 +1,40 @@
+text=input("enter text for counting")
+words_list=text.split()
+words=len(words_list)
+total_char=0
+sentence=0
+vowel=0
+consonant=0
+
+for i in text:
+    if ('a'<=i <='z')or('A'<=i <='Z'):
+        total_char+=1
+        if i in 'aeiouAEIOU':
+            vowel+=1
+        else:
+            consonant+=1
+    elif i in '.!?':
+        sentence+=1         
+      
+print("\n=== Text Analysis Result ===")
+print("total words in text :",words)
+print("totalchar in text :",total_char)
+print("total sentence in text :",sentence)
+print("total vowel in text :",vowel)
+print("total consonant in text :",consonant)
+ 
+ 
+search_word=input("enter a word to find in text :").strip()
+count=0
+position=[]
+for i in range(len(words_list)):
+    if words_list[i].strip(',.?!').lower()==search_word.lower():
+        count+=1
+        position.append(i+1)
+        
+        
+print("\n=== Word Search Result ===")
+if count==0:
+    print(f"'{search_word}' not found in text.")
+else:
+      print(f"'{search_word}' found {count} time at position: {position}") 
