@@ -70,4 +70,5 @@ def calculate(f):
 def square(x):
     return x*x
 
+
 calculate(square)
