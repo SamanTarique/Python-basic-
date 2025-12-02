@@ -1,0 +1,6 @@
+ this is a book
+ this is a chair
+ this is a cat
+ open the book
+ Read the file
+ 
